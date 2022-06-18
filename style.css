@@ -1,0 +1,210 @@
+body {
+	background-color: lightpink;
+	color: ;
+
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Lucida Sans';
+}
+
+a {
+	color: purple;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: yellow;
+}
+
+
+
+.avatar {
+	width: 230px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 14px rgba(90, 6, 255, 1);
+
+}
+
+.info-text h1, h4 {
+	color: black;
+}
+
+.info {
+	/*display: flex;*/
+	margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+	.info {
+		text-align: center;
+		display: block;
+	}
+}
+
+/*.info-text {
+	margin-left: 40pxs;
+}
+
+.info-text h4 {
+	margin-bottom: 10px;
+} */
+
+.info p {
+	color: purple;
+	margin: 0;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	/*text-transform: none;*/
+	letter-spacing: 5px;
+	word-spacing: 42px;
+
+} 
+
+.tabl1litter {
+	color: yellow;
+}
+
+.container {
+	max-width: 750%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+/*.social {
+	/*background: red;*/
+	/*padding: 15px;
+	border: 5px solid rebeccapurple;
+	margin: 5px;*/
+}
+
+/*.box-model >div {
+	float: left;
+	background: darkgrey;
+	height: 200px;
+	border: 4px solid yellow;
+	width: 25%;
+	box-sizing: border-box;
+}*/
+
+.bg-yellow {
+	background: yellow;
+}
+
+.bg-purple {
+	background: purple;
+}
+
+.card {
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+}
+
+.list {
+	padding: 0 20px;
+}
+
+.list li {
+	margin-bottom: 10px;
+	border-bottom: 1px solid yellow;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	padding-bottom: 10px;
+}
+
+.table td:nth-child(1), .table td:nth-child(2), .table td:nth-child(3) {
+	color: yellow;
+}
+
+/*.table tr:nth-child(even) {
+	background: black;
+}*/
+
+.wex {
+	color: yellow;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.form-groups label {
+	display: block;
+	font-size: 16px;
+	color: purple;
+}
+
+.form-groups input,
+.form-groups textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid;
+	color: black;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .form-groups {
+	width: 50%;
+	margin-right: 20px;
+}
+
+.row > .form-groups:first-child {
+	margin-right: 20px;
+}
+
+.btn {
+	background: purple;
+	padding: 15px 20px;
+	color: yellow;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.btn:hover{
+	opacity: 0.9;
+}
+
+/*.position {
+	position: relative;
+	border: 4px solid purple;
+	margin-top: 40px;
+	padding: 20px;
+	height: 300px;
+
+}
+
+.box {
+	position: fixed;
+	bottom: 50%;
+	left: 0px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background: yellow;
+} */
